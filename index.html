@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/29beee64c9.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-10 font-bold">Welcome To <span class="text-yellow-400">My Bank!!!</span></h1>
+    </header>
+    <main>
+        
+<div class="flex flex-col w-full max-w-md px-4 py-8 bg-gray-200 rounded-lg shadow dark:bg-gray-800 sm:px-6 md:px-8 lg:px-10 mx-auto mt-10 ">
+    <div class="self-center mb-6 text-xl font-light text-gray-600 sm:text-2xl dark:text-white">
+        Login To Your Account
+    </div>
+    <div class="mt-8">
+            <div class="flex flex-col mb-2">
+                <div class="flex relative ">
+                    <span class="rounded-l-md inline-flex  items-center px-3 border-t bg-white border-l border-b  border-gray-300 text-gray-500 shadow-sm text-sm">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input  type="text" id="email-field" class=" rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none "placeholder="Your email"/>
+                    </div>
+                </div>
+                <div class="flex flex-col mb-6">
+                    <div class="flex relative ">
+                        <span class="rounded-l-md inline-flex  items-center px-3 border-t bg-white border-l border-b  border-gray-300 text-gray-500 shadow-sm text-sm">
+                            <i class="fa-solid fa-lock"></i>
+                        </span>
+                        <input type="password" id="password-field" class=" rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none" placeholder="Your password"/>
+                        </div>
+                    </div>
+                    <!-- Log In Button -->
+                    <div id="login-btn" class="flex w-full">
+                        <button class="py-2 px-4  bg-purple-600 hover:bg-purple-700 focus:ring-purple-500 focus:ring-offset-purple-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold ">Login
+                        </button>
+                    </div>
+            </div>       
+        </div>
+
+    </main>
+<script src="js/login.js"></script>
+</body>
+</html>
